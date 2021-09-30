@@ -1,0 +1,42 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "yarn",
+			"args": [
+				"start"
+			],
+			"problemMatcher": [],
+			"label": "yarn: start",
+			"isBackground": true,
+			"detail": "yarn start",
+		},
+		{
+			"type": "shell",
+			"command": "yarn",
+			"args": [
+				"build"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "yarn: build",
+			"detail": "babel src/ -d dist/"
+		},
+		{
+			"type": "shell",
+			"command": "yarn",
+			"args": [
+				"watch"
+			],
+			"problemMatcher": [],
+			"group": "build",
+			"label": "yarn: watch",
+			"detail": "flow status",
+      "isBackground": true
+		},
+	]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "electron-flow-babel-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application build with babel",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "babel src/ -d dist/",
+    "prepublish": "yarn run build",
+    "watch": "flow status",
+    "start": "electron ."
+  },
+  "repository": "https://github.com/dev-templates/electron-flow-babel-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo",
+    "flow",
+    "babel"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-flow": "^7.14.5",
+    "electron": "^15.0.0",
+    "flow-bin": "^0.161.0"
+  }
+}
