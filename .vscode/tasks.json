@@ -35,7 +35,7 @@
 			"problemMatcher": [],
 			"group": "build",
 			"label": "yarn: watch",
-			"detail": "flow status",
+			"detail": "babel src/ -d dist/ --watch",
       "isBackground": true
 		},
 	]
