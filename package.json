@@ -22,7 +22,7 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "@babel/cli": "^7.16.7",
+    "@babel/cli": "^7.16.8",
     "@babel/core": "^7.16.7",
     "@babel/preset-flow": "^7.16.7",
     "electron": "^15.3.1",
