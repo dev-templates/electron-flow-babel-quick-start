@@ -576,10 +576,10 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
-flow-bin@^0.176.2:
-  version "0.176.2"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.176.2.tgz#b257da3ebd131b368c95c72e010dc823bfa159e8"
-  integrity sha512-gX3YJvv40oRY7A/ytEsWLDMHTfIkmy6ir1D4e5fklVsj3958iTg90cO8XwDdspnxQSgEUP1HW1e6wlX1OlQ5+Q==
+flow-bin@^0.176.3:
+  version "0.176.3"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.176.3.tgz#d32de04e044ab474afe543b9fd245608bb6a6ac8"
+  integrity sha512-lbNqgjr2GlGLAEVp5+dhG4LdnFE7ekbvVNifAdlvTx58/nE8GrCOMiUwEQy4dLnfL2NIRMk2dbEVTrugeQJ3mA==
 
 fs-extra@^8.1.0:
   version "8.1.0"
