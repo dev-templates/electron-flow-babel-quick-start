@@ -3,18 +3,18 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"command": "yarn",
+			"command": "pnpm",
 			"args": [
 				"start"
 			],
 			"problemMatcher": [],
-			"label": "yarn: start",
+			"label": "pnpm: start",
 			"isBackground": true,
-			"detail": "yarn start",
+			"detail": "pnpm start",
 		},
 		{
 			"type": "shell",
-			"command": "yarn",
+			"command": "pnpm",
 			"args": [
 				"build"
 			],
@@ -23,18 +23,18 @@
 				"kind": "build",
 				"isDefault": true
 			},
-			"label": "yarn: build",
+			"label": "pnpm: build",
 			"detail": "babel src/ -d dist/"
 		},
 		{
 			"type": "shell",
-			"command": "yarn",
+			"command": "pnpm",
 			"args": [
 				"watch"
 			],
 			"problemMatcher": [],
 			"group": "build",
-			"label": "yarn: watch",
+			"label": "pnpm: watch",
 			"detail": "babel src/ -d dist/ --watch",
       "isBackground": true
 		},

@@ -1,7 +1,7 @@
 .PHONY: upgrade clean
 
 upgrade:
-	yarn upgrade-interactive --latest
+	pnpm update --latest
 
 clean:
-	rm -fr node_modules yarn.lock
+	rm -fr node_modules pnpm-lock.yaml
