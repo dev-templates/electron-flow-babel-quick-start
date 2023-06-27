@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 devDependencies:
   '@babel/cli':
     specifier: ^7.22.5
@@ -14,8 +18,8 @@ devDependencies:
     specifier: ^21.0.1
     version: 21.0.1
   flow-bin:
-    specifier: ^0.209.0
-    version: 0.209.0
+    specifier: ^0.210.0
+    version: 0.210.0
 
 packages:
 
@@ -645,8 +649,8 @@ packages:
     dev: true
     optional: true
 
-  /flow-bin@0.209.0:
-    resolution: {integrity: sha512-HRc6+bKE8AN23SnuKaxdUjcQcjaIp6pksrGJ6pltFO5tIEvZmPrbT99P7Yb3ybqwcKU/Ry8yfJbuW92Ed2V3nw==}
+  /flow-bin@0.210.0:
+    resolution: {integrity: sha512-NULXi8YLhmA5EF2AhvLJ60xvfvKjQYiCKWN6g4YmqK+f6lczlgPjCF1hFO4OgKEPdPaHKHW8FkmOKXGhf82aQg==}
     engines: {node: '>=0.10.0'}
     hasBin: true
     dev: true
