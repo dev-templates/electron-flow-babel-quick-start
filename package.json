@@ -23,7 +23,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "@babel/cli": "^7.22.5",
-    "@babel/core": "^7.22.5",
+    "@babel/core": "^7.22.6",
     "@babel/preset-flow": "^7.22.5",
     "electron": "^21.0.1",
     "flow-bin": "^0.210.2"
