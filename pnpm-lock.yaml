@@ -12,8 +12,8 @@ devDependencies:
     specifier: ^7.22.15
     version: 7.22.15
   '@babel/preset-flow':
-    specifier: ^7.22.5
-    version: 7.22.5(@babel/core@7.22.15)
+    specifier: ^7.22.15
+    version: 7.22.15(@babel/core@7.22.15)
   electron:
     specifier: ^21.0.1
     version: 21.0.1
@@ -188,11 +188,6 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: true
 
-  /@babel/helper-validator-option@7.22.5:
-    resolution: {integrity: sha512-R3oB6xlIVKUnxNUxbmgq7pKjxpru24zlimpE8WK47fACIlM0II/Hm1RS8IaOI7NgCr6LNS+jl5l75m20npAziw==}
-    engines: {node: '>=6.9.0'}
-    dev: true
-
   /@babel/helpers@7.22.15:
     resolution: {integrity: sha512-7pAjK0aSdxOwR+CcYAqgWOGy5dcfvzsTIfFTb2odQqW47MDfv14UaJDY6eng8ylM2EaeKXdxaSWESbkmaQHTmw==}
     engines: {node: '>=6.9.0'}
@@ -242,15 +237,15 @@ packages:
       '@babel/plugin-syntax-flow': 7.22.5(@babel/core@7.22.15)
     dev: true
 
-  /@babel/preset-flow@7.22.5(@babel/core@7.22.15):
-    resolution: {integrity: sha512-ta2qZ+LSiGCrP5pgcGt8xMnnkXQrq8Sa4Ulhy06BOlF5QbLw9q5hIx7bn5MrsvyTGAfh6kTOo07Q+Pfld/8Y5Q==}
+  /@babel/preset-flow@7.22.15(@babel/core@7.22.15):
+    resolution: {integrity: sha512-dB5aIMqpkgbTfN5vDdTRPzjqtWiZcRESNR88QYnoPR+bmdYoluOzMX9tQerTv0XzSgZYctPfO1oc0N5zdog1ew==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.22.15
       '@babel/helper-plugin-utils': 7.22.5
-      '@babel/helper-validator-option': 7.22.5
+      '@babel/helper-validator-option': 7.22.15
       '@babel/plugin-transform-flow-strip-types': 7.22.5(@babel/core@7.22.15)
     dev: true
 
