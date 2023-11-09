@@ -12,8 +12,8 @@ devDependencies:
     specifier: ^7.23.2
     version: 7.23.2
   '@babel/preset-flow':
-    specifier: ^7.22.15
-    version: 7.22.15(@babel/core@7.23.2)
+    specifier: ^7.23.3
+    version: 7.23.3(@babel/core@7.23.2)
   electron:
     specifier: ^21.0.1
     version: 21.0.1
@@ -211,8 +211,8 @@ packages:
       '@babel/types': 7.23.0
     dev: true
 
-  /@babel/plugin-syntax-flow@7.22.5(@babel/core@7.23.2):
-    resolution: {integrity: sha512-9RdCl0i+q0QExayk2nOS7853w08yLucnnPML6EN9S8fgMPVtdLDCdx/cOQ/i44Lb9UeQX9A35yaqBBOMMZxPxQ==}
+  /@babel/plugin-syntax-flow@7.23.3(@babel/core@7.23.2):
+    resolution: {integrity: sha512-YZiAIpkJAwQXBJLIQbRFayR5c+gJ35Vcz3bg954k7cd73zqjvhacJuL9RbrzPz8qPmZdgqP6EUKwy0PCNhaaPA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -221,19 +221,19 @@ packages:
       '@babel/helper-plugin-utils': 7.22.5
     dev: true
 
-  /@babel/plugin-transform-flow-strip-types@7.22.5(@babel/core@7.23.2):
-    resolution: {integrity: sha512-tujNbZdxdG0/54g/oua8ISToaXTFBf8EnSb5PgQSciIXWOWKX3S4+JR7ZE9ol8FZwf9kxitzkGQ+QWeov/mCiA==}
+  /@babel/plugin-transform-flow-strip-types@7.23.3(@babel/core@7.23.2):
+    resolution: {integrity: sha512-26/pQTf9nQSNVJCrLB1IkHUKyPxR+lMrH2QDPG89+Znu9rAMbtrybdbWeE9bb7gzjmE5iXHEY+e0HUwM6Co93Q==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.23.2
       '@babel/helper-plugin-utils': 7.22.5
-      '@babel/plugin-syntax-flow': 7.22.5(@babel/core@7.23.2)
+      '@babel/plugin-syntax-flow': 7.23.3(@babel/core@7.23.2)
     dev: true
 
-  /@babel/preset-flow@7.22.15(@babel/core@7.23.2):
-    resolution: {integrity: sha512-dB5aIMqpkgbTfN5vDdTRPzjqtWiZcRESNR88QYnoPR+bmdYoluOzMX9tQerTv0XzSgZYctPfO1oc0N5zdog1ew==}
+  /@babel/preset-flow@7.23.3(@babel/core@7.23.2):
+    resolution: {integrity: sha512-7yn6hl8RIv+KNk6iIrGZ+D06VhVY35wLVf23Cz/mMu1zOr7u4MMP4j0nZ9tLf8+4ZFpnib8cFYgB/oYg9hfswA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -241,7 +241,7 @@ packages:
       '@babel/core': 7.23.2
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/helper-validator-option': 7.22.15
-      '@babel/plugin-transform-flow-strip-types': 7.22.5(@babel/core@7.23.2)
+      '@babel/plugin-transform-flow-strip-types': 7.23.3(@babel/core@7.23.2)
     dev: true
 
   /@babel/template@7.22.15:
