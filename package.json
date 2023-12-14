@@ -26,6 +26,6 @@
     "@babel/core": "^7.23.6",
     "@babel/preset-flow": "^7.23.3",
     "electron": "^21.0.1",
-    "flow-bin": "^0.223.3"
+    "flow-bin": "^0.224.0"
   }
 }
