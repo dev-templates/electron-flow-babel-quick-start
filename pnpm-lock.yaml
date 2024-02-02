@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^21.0.1
     version: 21.0.1
   flow-bin:
-    specifier: ^0.227.0
-    version: 0.227.0
+    specifier: ^0.228.0
+    version: 0.228.0
 
 packages:
 
@@ -659,8 +659,8 @@ packages:
     dev: true
     optional: true
 
-  /flow-bin@0.227.0:
-    resolution: {integrity: sha512-UkIzYbyUDmfztEbvS39ksR+vSu9WwUJQ4D+UvIW0ILrDuhPRN3XjheB1+mv2b/4H011HCM5y9nENXrDEaiIKtg==}
+  /flow-bin@0.228.0:
+    resolution: {integrity: sha512-+Q6A+4nmhvf5yPXHxht9yWqRoto6Ith1HPU736iEghf+yGNzrnONyv+OlLG5TUH5cQegXasBmzBJKa3/+A8ZUA==}
     engines: {node: '>=0.10.0'}
     hasBin: true
     dev: true
