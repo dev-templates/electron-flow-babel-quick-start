@@ -5,8 +5,8 @@
   "main": "dist/main.js",
   "scripts": {
     "build": "babel src/ -d dist/",
-    "prepublish": "yarn run build",
-    "watch": "yarn run build --watch",
+    "prepublish": "pnpm run build",
+    "watch": "pnpm run build --watch",
     "start": "electron ."
   },
   "repository": "https://github.com/dev-templates/electron-flow-babel-quick-start",
@@ -22,10 +22,15 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "@babel/cli": "^7.23.4",
-    "@babel/core": "^7.23.7",
-    "@babel/preset-flow": "^7.23.3",
-    "electron": "^28.1.2",
-    "flow-bin": "^0.225.1"
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/preset-flow": "^7.24.6",
+    "babel-plugin-syntax-hermes-parser": "^0.22.0",
+    "electron": "^30.0.9"
+  },
+  "pnpm": {
+    "overrides": {
+      "glob": "^10.0.0"
+    }
   }
 }
