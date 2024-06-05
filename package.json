@@ -22,7 +22,7 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "@babel/cli": "^7.24.6",
+    "@babel/cli": "^7.24.7",
     "@babel/core": "^7.24.6",
     "@babel/preset-flow": "^7.24.6",
     "babel-plugin-syntax-hermes-parser": "^0.22.0",
